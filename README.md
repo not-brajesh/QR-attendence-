@@ -124,6 +124,17 @@ Student shows QR → Faculty scans → Attendance saved → Export data
 - Attendance dashboard
 - Cloud storage
 - Student name display on scan
+  
+TO RUN THIS ON YOUR PHONE AS AN APPLICATION FOLLOW THESE STEPS ↴
+
+STEP 1 > OPEN THIS WEBSITE ON YOUR PHONE: 
+```
+https://not-brajesh.github.io/QR-attendence-/
 ```
 
----
+STEP 2 > TAP ON SHARE 
+
+STEP 3 > ADD TO HOME SCREEN
+
+
+
