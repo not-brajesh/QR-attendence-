@@ -124,8 +124,10 @@ Student shows QR → Faculty scans → Attendance saved → Export data
 - Attendance dashboard
 - Cloud storage
 - Student name display on scan
-  
-TO RUN THIS ON YOUR PHONE AS AN APPLICATION FOLLOW THESE STEPS ↴
+
+---
+
+# TO RUN THIS ON YOUR PHONE AS AN APPLICATION FOLLOW THESE STEPS ↴
 
 STEP 1 > OPEN THIS WEBSITE ON YOUR PHONE: 
 ```
