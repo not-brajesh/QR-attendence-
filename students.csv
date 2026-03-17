@@ -1,5 +1,4 @@
-id,name,roll
-S001,Aman Sharma,101
-S002,Riya Singh,102
-S003,Rahul Verma,103
-S004,Priya Gupta,104
+sr,name,mobile,branch
+1,Brajesh Kumar,9876543210,AI&DS
+2,Rahul Sharma,9876543211,CSE
+3,Priya Singh,9876543212,AI&DS

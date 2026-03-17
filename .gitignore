@@ -1,0 +1,5 @@
+Batches/
+qr_codes/
+*.csv
+venv/
+__pycache__/

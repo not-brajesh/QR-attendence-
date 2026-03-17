@@ -18,37 +18,30 @@ Faculty can scan student QR codes and export attendance.
 
 # Project Structure
 
-```
+qr-attendance/
+│
+├── index.html # Main scanner page
+├── app.js # QR scanning logic
+├── db.js # Attendance storage
+├── manifest.json # PWA configuration
+├── service-worker.js # Offline support
+├── icon.png # App icon
+│
+├── generate_qr.py # Generate QR codes for students
+├── students.csv # Student dataset
+│
+└── qr_codes/ # Generated QR codes
 
-qr-attendence/
-│
-├── index.html           # QR scanner page
-├── app.js               # Scanner logic
-├── db.js                # Attendance storage
-├── manifest.json        # PWA configuration
-├── service-worker.js    # Offline support
-├── icon.png             # App icon
-│
-├── students.csv         # Student dataset
-├── generate_qr.py       # QR code generator
-│
-└── qr_codes/            # Generated QR codes
-
-```
 
 ---
 
 # How to Run the Scanner
 
-Open the scanner by running:
-
-```
+Open the website:
 
 index.html
 
-```
-
-Or deploy the website using:
+or deploy it on:
 
 - GitHub Pages
 - Netlify
@@ -57,7 +50,7 @@ Or deploy the website using:
 Faculty can then:
 
 1. Open the website
-2. Add it to **Home Screen**
+2. Click **Add to Home Screen**
 3. Scan student QR codes
 4. Export attendance
 
@@ -67,46 +60,31 @@ Faculty can then:
 
 Create a dataset file:
 
-```
-
 students.csv
 
-```
 
 Example:
-
-```
 
 id,name,branch
 101,Brajesh Kumar,AI&DS
 102,Pragati Dubey,AI&DS
-103,Adarsh Jha,AI&DS
+103,Adarsh Jha, AI&DS
 
-```
 
 Install dependencies:
 
-```
-
 pip install qrcode pillow
 
-```
 
-Run the QR generator:
-
-```
+Run the generator:
 
 python generate_qr.py
 
-```
 
 QR codes will be created inside:
 
-```
-
 qr_codes/
 
-```
 
 Send each student their QR code.
 
@@ -120,23 +98,8 @@ Student shows QR → Faculty scans → Attendance saved → Export data
 
 # Future Improvements
 
-- Prevent duplicate attendance
+- Duplicate attendance prevention
 - Attendance dashboard
 - Cloud storage
-- Student name display on scan
-
----
-
-# TO RUN THIS ON YOUR PHONE AS AN APPLICATION FOLLOW THESE STEPS ↴
-
-STEP 1 > OPEN THIS WEBSITE ON YOUR PHONE: 
-```
-https://not-brajesh.github.io/QR-attendence-/
-```
-
-STEP 2 > TAP ON SHARE 
-
-STEP 3 > ADD TO HOME SCREEN
-
-
+- Student name auto display
 
