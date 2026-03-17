@@ -1,5 +1,20 @@
-Batches/
-qr_codes/
-*.csv
+# Python
 venv/
 __pycache__/
+*.pyc
+
+# QR codes
+qr_codes/
+
+# Student batch data
+Batches/
+
+# Attendance exports
+*.xlsx
+*.csv
+
+# System files
+.DS_Store
+
+# VS Code
+.vscode/
