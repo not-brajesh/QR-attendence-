@@ -103,3 +103,4 @@ Student shows QR → Faculty scans → Attendance saved → Export data
 - Cloud storage
 - Student name auto display
 
+this is done
